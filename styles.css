@@ -1,0 +1,24 @@
+.buttons-container {
+    border-radius: 15px;
+    width: 60%;
+
+}
+
+.die {
+    display: inline-block;
+    text-align: center;
+    font-size: 200px;
+    line-height: .65;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid grey;
+    margin-top: 15px;
+    padding: 17px;
+}
+
+#dice-container {
+    display: flex;
+    justify-content: space-evenly;
+}
