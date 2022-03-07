@@ -14,7 +14,7 @@ class Die {
         });
         $(this.div).dblclick(() => {
             $(this.div).remove();
-            dice.splice($.inArray(this, dice),1);
+            dice.splice($.inArray(this, dice), 1);
         });
     }
 
@@ -27,17 +27,17 @@ class Die {
 
     getChar() {
         if (this.value === 1) {
-            this.char = "1";
+            this.char = "⚀";
         } else if (this.value === 2) {
-            this.char = "2"
+            this.char = "⚁"
         } else if (this.value === 3) {
-            this.char = "3";
+            this.char = "⚂";
         } else if (this.value === 4) {
-            this.char = "4";
+            this.char = "⚃";
         } else if (this.value === 5) {
-            this.char = "5";
+            this.char = "⚄";
         } else {
-            this.char = "6";
+            this.char = "⚅";
         }
     }
 }
